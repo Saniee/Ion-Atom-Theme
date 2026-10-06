@@ -1,5 +1,4 @@
 # Ion
-<img src="https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-atom.png" alt="ion" width="500">  
 
 ### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
 
