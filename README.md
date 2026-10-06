@@ -1,4 +1,4 @@
-# Ion
+# Ion Atom Theme
 
 ### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
 
