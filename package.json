@@ -2,11 +2,11 @@
   "name": "ion-atom-theme",
   "displayName": "Ion Atom Theme",
   "description": "Blue and red blend theme with dark and light variants inspired by the ion atom.",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "publisher": "Saniee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saniee/Ion-Theme.git"
+    "url": "https://github.com/Saniee/Ion-Atom-Theme.git"
   },
   "license": "GPL-3.0-only",
   "icon": "icon.png",
