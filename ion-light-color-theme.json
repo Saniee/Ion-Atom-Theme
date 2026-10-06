@@ -266,6 +266,26 @@
     "unresolvedReference": "#b40919",
     "*.deprecated": {
       "strikethrough": true
+    },
+    "const": {
+      "foreground": "#0a1a2b",
+      "fontStyle": "bold"
+    },
+    "static": {
+      "foreground": "#0a1a2b",
+      "fontStyle": "bold"
+    },
+    "static.mutable": {
+      "foreground": "#0a1a2b",
+      "fontStyle": "bold underline"
+    },
+    "variable.static.mutable": {
+      "foreground": "#0a1a2b",
+      "fontStyle": "bold underline"
+    },
+    "const.mutable": {
+      "foreground": "#0a1a2b",
+      "fontStyle": "bold underline"
     }
   },
   "tokenColors": [

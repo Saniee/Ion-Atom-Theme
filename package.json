@@ -2,8 +2,12 @@
   "name": "ion",
   "displayName": "Ion",
   "description": "Blue/cyan dark theme with a distinct color for every token type",
-  "version": "0.3.8",
+  "version": "0.3.10",
   "publisher": "local",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saniee/Ion-Theme.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -25,7 +29,7 @@
     ]
   },
   "scripts": {
-    "package": "vsce package --allow-missing-repository --skip-license"
+    "package": "vsce package --skip-license"
   },
   "devDependencies": {
     "@vscode/vsce": "^4.0.0"

@@ -265,6 +265,26 @@
     "unresolvedReference": "#ff5c6c",
     "*.deprecated": {
       "strikethrough": true
+    },
+    "const": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "static": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "static.mutable": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold underline"
+    },
+    "variable.static.mutable": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold underline"
+    },
+    "const.mutable": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold underline"
     }
   },
   "tokenColors": [
