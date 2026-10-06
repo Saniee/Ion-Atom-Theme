@@ -1,5 +1,5 @@
 # Ion
-<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ionic_bonding.svg/1280px-Ionic_bonding.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail:500" alt="ion" width="400">  
+<img src="images/ion-atom.png" alt="ion" width="500">  
 
 ### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
 
