@@ -1,0 +1,33 @@
+{
+  "name": "ion",
+  "displayName": "Ion",
+  "description": "Blue/cyan dark theme with a distinct color for every token type",
+  "version": "0.3.8",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ion",
+        "uiTheme": "vs-dark",
+        "path": "./ion-color-theme.json"
+      },
+      {
+        "label": "Ion Light",
+        "uiTheme": "vs",
+        "path": "./ion-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --allow-missing-repository --skip-license"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0"
+  }
+}
