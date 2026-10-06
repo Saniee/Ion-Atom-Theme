@@ -1,19 +1,39 @@
 {
   "name": "ion",
   "displayName": "Ion",
-  "description": "Blue/cyan dark theme with a distinct color for every token type",
+  "description": "Blue and red blend theme with dark and light variants inspired by the ion atom.",
   "version": "0.3.10",
-  "publisher": "local",
+  "publisher": "Saniee",
   "repository": {
     "type": "git",
     "url": "https://github.com/Saniee/Ion-Theme.git"
   },
-  "engines": {
-    "vscode": "^1.80.0"
+  "license": "GPL-3.0-only",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#101e2e",
+    "theme": "dark"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "blue",
+    "cyan",
+    "rust",
+    "svelte",
+    "typescript",
+    "python",
+    "csharp",
+    "cpp"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
   "contributes": {
     "themes": [
       {
@@ -29,7 +49,7 @@
     ]
   },
   "scripts": {
-    "package": "vsce package --skip-license"
+    "package": "vsce package"
   },
   "devDependencies": {
     "@vscode/vsce": "^4.0.0"

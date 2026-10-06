@@ -1,5 +1,5 @@
 # Ion
-<img src="images/ion-atom.png" alt="ion" width="500">  
+<img src="https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-atom.png" alt="ion" width="500">  
 
 ### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
 
@@ -16,14 +16,18 @@ Ion uses italic and bold a lot to tell similar tokens apart, so a font with real
 
 ## Showcase:
 
-![overlay](images/ion-overlay.png)
+![overlay](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-overlay.png)
 
 ## Variants
 
 ### **Ion** - Dark Original Variant.
 
-![dark](images/ion-dark.png)
+![dark](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-dark.png)
 
 ### **Ion Light** - Light Variant
 
-![light](images/ion-light.png)
+![light](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-light.png)
+
+## License
+
+Released under the [GPL-3.0 license](LICENSE).
