@@ -19,14 +19,16 @@ Ion uses italic and bold a lot to tell similar tokens apart, so a font with real
 
 ## Variants
 
-### **Ion** - Dark Original Variant.
+### **Ion Atom** - Dark Original Variant
 
 ![dark](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-dark.png)
 
-### **Ion Light** - Light Variant
+### **Ion Atom Fusion** - Near-black Plasma Variant
+
+![fusion](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-fusion.png)
+
+### **Ion Atom Light** - Light Variant
 
 ![light](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-light.png)
-
-## License
 
 Released under the [GPL-3.0 license](LICENSE).

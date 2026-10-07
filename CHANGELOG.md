@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.5
+- Redone the showcase images.
+
 ## 0.4.4
 - TOML keys use the property color, matching JSON and YAML.
 - Markdown code blocks keep their language's colors instead of turning yellow.

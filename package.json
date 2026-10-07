@@ -2,7 +2,7 @@
   "name": "ion-atom-theme",
   "displayName": "Ion Atom Theme",
   "description": "Blue and red dark and light themes inspired by the ion atom, with a distinct color for every token type",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "publisher": "Saniee",
   "repository": {
     "type": "git",
