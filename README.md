@@ -1,4 +1,4 @@
-# Ion Atom Theme
+![Ion Atom Theme](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/banner.png)
 
 ### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
 
