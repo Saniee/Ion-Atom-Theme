@@ -1,0 +1,28 @@
+# Rust crate manifest.
+[package]
+name = "carrier-api"
+version = "1.4.2"
+edition = "2021"
+authors = ["Saniee"]
+description = """
+Backend for fleet carrier events and market data.
+"""
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+axum = "0.8"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+
+[[bin]]
+name = "carrier-api"
+path = 'src/main.rs'
+
+[workspace.metadata]
+released = 2026-10-07T07:15:00Z
+max-items = 64
+ratio = 0.75

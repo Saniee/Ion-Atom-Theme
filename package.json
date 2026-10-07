@@ -1,12 +1,12 @@
 {
   "name": "ion-atom-theme",
   "displayName": "Ion Atom Theme",
-  "description": "Blue and red blend theme with dark and light variants inspired by the ion atom.",
-  "version": "0.3.11",
+  "description": "Blue and red dark and light themes inspired by the ion atom, with a distinct color for every token type",
+  "version": "0.4.4",
   "publisher": "Saniee",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saniee/Ion-Atom-Theme.git"
+    "url": "https://github.com/Saniee/Ion-Theme.git"
   },
   "license": "GPL-3.0-only",
   "icon": "icon.png",
@@ -37,14 +37,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Ion",
+        "label": "Ion Atom",
         "uiTheme": "vs-dark",
         "path": "./ion-color-theme.json"
       },
       {
-        "label": "Ion Light",
+        "label": "Ion Atom Light",
         "uiTheme": "vs",
         "path": "./ion-light-color-theme.json"
+      },
+      {
+        "label": "Ion Atom Fusion",
+        "uiTheme": "vs-dark",
+        "path": "./ion-fusion-color-theme.json"
       }
     ]
   },

@@ -1,0 +1,39 @@
+/* Carrier dashboard styles. */
+@import url("fonts.css");
+
+:root {
+  --bg: #101e2e;
+  --accent: #5c8dff;
+  --radius: 6px;
+}
+
+*,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 14px/1.5 "JetBrains Mono", monospace;
+  background: var(--bg);
+  color: rgb(179 197 212 / 90%);
+}
+
+.carrier-card > .title:hover,
+#status[data-state="active"] {
+  border: 1px solid var(--accent);
+  border-radius: calc(var(--radius) * 2);
+  transition: transform 150ms ease-in-out !important;
+}
+
+@media (max-width: 600px) {
+  .carrier-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@keyframes pulse {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}

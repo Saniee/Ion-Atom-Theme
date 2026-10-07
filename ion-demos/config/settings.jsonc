@@ -1,0 +1,14 @@
+// Editor settings for the carrier dashboard (JSON with comments).
+{
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Ion Atom",
+  /* Block comments work too. */
+  "files.exclude": {
+    "**/target": true,
+    "**/__pycache__": true
+  },
+  "rust-analyzer.check.command": "clippy",
+  "terminal.integrated.env.windows": null, // trailing comment
+}

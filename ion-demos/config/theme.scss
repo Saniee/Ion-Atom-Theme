@@ -1,0 +1,38 @@
+// Carrier dashboard theme (SCSS).
+@use "sass:math";
+
+$accent: #5c8dff;
+$radius: 6px !default;
+$breakpoints: (small: 600px, large: 1200px);
+
+@mixin card($padding: 1rem) {
+  padding: $padding;
+  border-radius: $radius;
+}
+
+@function rem($px, $base: 16px) {
+  @return math.div($px, $base) * 1rem;
+}
+
+.carrier {
+  @include card(rem(24px));
+  color: lighten($accent, 10%);
+
+  &__title {
+    font-weight: 600;
+
+    &:hover { color: $accent; }
+  }
+
+  @each $name, $width in $breakpoints {
+    @media (min-width: $width) {
+      .carrier--#{$name} { max-width: $width; }
+    }
+  }
+
+  @if $radius > 4px {
+    box-shadow: 0 0 0 1px rgba($accent, 0.3);
+  } @else {
+    box-shadow: none;
+  }
+}

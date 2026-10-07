@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Carrier Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .status { color: #ffb347; }
+  </style>
+</head>
+<body>
+  <!-- Main carrier card -->
+  <main id="app" class="carrier-card" data-state="active">
+    <h1 class="title">Tidewater &amp; crew</h1>
+    <button type="button" disabled onclick="refresh()">Refresh</button>
+    <img src="atom.png" alt="Ion atom" width="64">
+  </main>
+  <script type="module">
+    const MAX_ITEMS = 64;
+    async function refresh() {
+      const res = await fetch(`/api/carriers?limit=${MAX_ITEMS}`);
+      document.querySelector("#app").dataset.state = res.ok ? "active" : "failed";
+    }
+  </script>
+</body>
+</html>

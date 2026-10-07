@@ -1,0 +1,16 @@
+{
+  "name": "Tidewater",
+  "callsign": "X7K-9QZ",
+  "jumpsLeft": 3,
+  "docked": false,
+  "fuel": 812.5,
+  "owner": null,
+  "cargo": [
+    { "commodity": "Tritium", "tonnes": 12 },
+    { "commodity": "Gold", "tonnes": 3.5 }
+  ],
+  "market": {
+    "updated": "2026-10-07T07:15:00Z",
+    "note": "escaped \"quotes\" and a\ttab"
+  }
+}

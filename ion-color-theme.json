@@ -1,5 +1,5 @@
 {
-  "name": "Ion",
+  "name": "Ion Atom",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -106,7 +106,7 @@
     "gitDecoration.untrackedResourceForeground": "#47c9f5",
     "gitDecoration.deletedResourceForeground": "#f2747c",
     "gitDecoration.ignoredResourceForeground": "#3f5a73",
-    "gitDecoration.conflictingResourceForeground": "#ff8f6b",
+    "gitDecoration.conflictingResourceForeground": "#ffb347",
     "terminal.background": "#101e2e",
     "terminal.foreground": "#b3c5d4",
     "terminal.ansiBlack": "#1a2c40",
@@ -259,8 +259,8 @@
     "derive": "#c4b5fd",
     "deriveHelper": "#c4b5fd",
     "attributeBracket": "#8a7fb8",
-    "formatSpecifier": "#ff8f6b",
-    "escapeSequence": "#ff8f6b",
+    "formatSpecifier": "#ffb347",
+    "escapeSequence": "#ffb347",
     "invalidEscapeSequence": "#ff5c6c",
     "unresolvedReference": "#ff5c6c",
     "*.deprecated": {
@@ -285,6 +285,28 @@
     "const.mutable": {
       "foreground": "#f4f8fc",
       "fontStyle": "bold underline"
+    },
+    "variable.readonly:python": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "event": "#9fd8f5",
+    "variable.readonly:c": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "variable.readonly:cpp": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "namespace.deprecated:csharp": {
+      "foreground": "#5c8dff",
+      "strikethrough": true
+    },
+    "variable.classMember:python": "#9fd8f5",
+    "variable.readonly.classMember:python": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
     }
   },
   "tokenColors": [
@@ -427,7 +449,7 @@
         "meta.fstring punctuation.definition.fstring"
       ],
       "settings": {
-        "foreground": "#ff8f6b"
+        "foreground": "#ffb347"
       }
     },
     {
@@ -435,7 +457,7 @@
         "string.regexp"
       ],
       "settings": {
-        "foreground": "#ff8f6b"
+        "foreground": "#ffb347"
       }
     },
     {
@@ -656,7 +678,8 @@
         "support.type.property-name",
         "support.type.property-name.json",
         "entity.name.tag.yaml",
-        "support.type.property-name.toml"
+        "support.type.property-name.toml",
+        "variable.other.key.toml"
       ],
       "settings": {
         "foreground": "#9fd8f5"
@@ -735,8 +758,7 @@
     },
     {
       "scope": [
-        "markup.inline.raw",
-        "markup.fenced_code"
+        "markup.inline.raw"
       ],
       "settings": {
         "foreground": "#f2d56b"
@@ -789,6 +811,15 @@
       ],
       "settings": {
         "foreground": "#ff5c6c"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute",
+        "support.other.attribute"
+      ],
+      "settings": {
+        "foreground": "#c4b5fd"
       }
     }
   ]

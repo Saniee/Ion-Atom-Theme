@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Carrier export -->
+<carrier xmlns="urn:example:carrier" callsign="X7K-9QZ" docked="false">
+  <name>Tidewater</name>
+  <cargo>
+    <item commodity="Tritium" tonnes="12"/>
+    <item commodity="Gold" tonnes="3.5"/>
+  </cargo>
+  <note><![CDATA[Raw <text> & symbols]]></note>
+</carrier>
