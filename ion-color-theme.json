@@ -309,7 +309,24 @@
       "fontStyle": "bold"
     },
     "tomlArrayKey": "#9fd8f5",
-    "tomlTableKey": "#9fd8f5"
+    "tomlTableKey": "#9fd8f5",
+    "variable.defaultLibrary:lua": "#d08a52",
+    "variable.readonly:lua": {
+      "foreground": "#f4f8fc",
+      "fontStyle": "bold"
+    },
+    "variable.definition:lua": {
+      "foreground": "#f59a8e",
+      "fontStyle": "italic"
+    },
+    "struct:lua": {
+      "foreground": "#f59a8e",
+      "fontStyle": "italic"
+    },
+    "parameter:dockerfile": {
+      "foreground": "#b3c5d4",
+      "fontStyle": ""
+    }
   },
   "tokenColors": [
     {
@@ -891,6 +908,62 @@
       ],
       "settings": {
         "foreground": "#2fd4a8"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "storage.source.cmake"
+      ],
+      "settings": {
+        "foreground": "#f2747c"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "entity.source.cmake",
+        "entity.source.cmakecache"
+      ],
+      "settings": {
+        "foreground": "#9fd8f5"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "argument.source.cmake"
+      ],
+      "settings": {
+        "foreground": "#f2d56b"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "variable.source.cmakecache"
+      ],
+      "settings": {
+        "foreground": "#9fd8f5"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "keyword.source.cmakecache"
+      ],
+      "settings": {
+        "foreground": "#2fd4a8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "ion:cmake",
+      "scope": [
+        "string.source.cmakecache"
+      ],
+      "settings": {
+        "foreground": "#6f8fa6"
       }
     }
   ]

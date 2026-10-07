@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.9
+- CMake: `${VAR}` references use the variable color, properties the property color, and bracket arguments the string color; CMakeCache keys and types are colored like other config files.
+- Dockerfile (Container Tools): instruction arguments use plain text instead of the italic parameter color.
+- Lua (LuaLS): standard library tables use the module color, `<const>` locals the constant color, and `self` and `goto` labels the parameter style.
+
 ## 0.4.8
 - Sass/SCSS: map keys use the property color, `@use`/`@forward`/`@import` are italic like other imports, and `%placeholder` and `&__suffix` selectors use the class color.
 

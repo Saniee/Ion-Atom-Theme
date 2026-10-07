@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-  Inspired by how atoms are drawn: a blue/red blend with some sparkles on top.<br>
-  Every kind of token gets its own color, so you can tell a variable from a function at a glance.<br>
+  A blue/red blend theme with some sparkles on top.<br>
   One Dark Pro does this really well, so I took some inspiration from it.
 </p>
 
@@ -34,13 +33,31 @@
 
 ## Supported languages
 
-I mostly write Rust, C, C++, C#, Python and Svelte with TypeScript, so the theme is tuned for those. JSON, YAML, TOML, CSS/SCSS, HTML and Markdown are covered too.
+The theme is tuned for these languages:  
+- `Rust` with [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- `C` / `C#` / `C++` with [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) & [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- `Python` with [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- `Lua` with [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+- `Svelte` with [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
+- `TypeScript`
 
-Run your language server (rust-analyzer, Pylance, the C/C++ or C# extension) for the full set of colors.
+Some tweaks were also done for:  
+- `TOML` with [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+- `CSS`/`SCSS` with [Some Sass](https://marketplace.visualstudio.com/items?itemName=SomewhatStationery.some-sass)
+- `Docker` with [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- `CMake` with [CMake](https://marketplace.visualstudio.com/items?itemName=twxs.cmake)
+- `HTML`
+- `Markdown`
+- `SQL`
+- `JSON`
+- `YAML`
+
+For maximum usage, use the appropriate language servers.  
+These are listed next to the supported languages.
 
 ## Fonts
 
-Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I go with JetBrains Mono, but Cascadia Code works too.
+Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I go with `JetBrains Mono`, but `Cascadia Code` works too.
 
 ## Install
 
@@ -50,7 +67,7 @@ To follow your OS light/dark mode:
 
 ```jsonc
 "window.autoDetectColorScheme": true,
-"workbench.preferredDarkColorTheme": "Ion Atom",
+"workbench.preferredDarkColorTheme": "Ion Atom OR Ion Atom Fusion",
 "workbench.preferredLightColorTheme": "Ion Atom Light"
 ```
 

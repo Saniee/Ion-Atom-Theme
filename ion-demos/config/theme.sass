@@ -1,0 +1,29 @@
+// Carrier dashboard theme (indented Sass).
+@use "sass:math"
+@use "tokens" as t
+
+$accent: #5c8dff
+$radius: 6px !default
+$breakpoints: (small: 600px, large: 1200px)
+
+%card-base
+  border-radius: $radius
+
+@mixin card($padding: 1rem)
+  @extend %card-base
+  padding: $padding
+
+@function rem($px, $base: 16px)
+  @return math.div($px, $base) * 1rem
+
+.carrier
+  +card(rem(24px))
+  color: t.$text
+  &__title
+    font-weight: 600
+    &:hover
+      color: $accent
+  @each $name, $width in $breakpoints
+    @media (min-width: $width)
+      .carrier--#{$name}
+        max-width: map-get($breakpoints, $name)
