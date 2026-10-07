@@ -1,10 +1,14 @@
 # Changelog
 
+## 0.4.8
+- Sass/SCSS: map keys use the property color, `@use`/`@forward`/`@import` are italic like other imports, and `%placeholder` and `&__suffix` selectors use the class color.
+
 ## 0.4.7
 - Even Better TOML: keys holding arrays or inline tables use the property color; table headers are bold blue.
+- SQL: table and index names use the type color, data types are italic like other primitives, and table qualifiers use the module color.
 
 ## 0.4.6
-- Retouched the README, added branding banner,
+- Retouched the README, added branding banner.
 - Fixed Repo typos.
 
 ## 0.4.5

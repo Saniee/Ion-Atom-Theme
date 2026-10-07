@@ -860,6 +860,39 @@
         "foreground": "#1b44da",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "ion:sass",
+      "scope": [
+        "support.type.map.key.scss",
+        "support.type.map.key.sass"
+      ],
+      "settings": {
+        "foreground": "#3a58b0"
+      }
+    },
+    {
+      "name": "ion:sass",
+      "scope": [
+        "keyword.control.at-rule.use",
+        "keyword.control.at-rule.forward",
+        "keyword.control.at-rule.import"
+      ],
+      "settings": {
+        "foreground": "#4f1ce8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "ion:sass",
+      "scope": [
+        "entity.other.attribute-name.placeholder",
+        "entity.other.attribute-name.parent-selector-suffix",
+        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity"
+      ],
+      "settings": {
+        "foreground": "#0a74b8"
+      }
     }
   ]
 }
