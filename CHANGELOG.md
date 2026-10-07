@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.6
+- Retouched the README, added branding banner,
+- Fixed Repo typos.
+
 ## 0.4.5
 - Redone the showcase images.
 
