@@ -1,34 +1,59 @@
-![Ion Atom Theme](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/banner.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/banner.png" alt="Ion Atom Theme" width="100%">
+</p>
 
-### Inspired by how the atoms are drawn -- focusing on a blue/red blend with some sparkles on top.
+<p align="center">
+  Inspired by how atoms are drawn: a blue/red blend with some sparkles on top.<br>
+  Every kind of token gets its own color, so you can tell a variable from a function at a glance.<br>
+  One Dark Pro does this really well, so I took some inspiration from it.
+</p>
 
-I tried to give every kind of token its own color.  
-One Dark Pro does this quite well so I took some inspirations from it.
-
-### Supported Languages
-
-Due to my preference on Rust, C (++, #), Python and Svelte \w Typescript. The theme works best with those languages in particular.
-
-### Font Choices
-
-Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I prefer to go with JetBrains Mono but Cascadia Code can work too.
-
-## Showcase:
-
-![overlay](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-overlay.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-overlay.png" alt="Ion Atom, Fusion and Light side by side" width="70%">
+</p>
 
 ## Variants
 
-### **Ion Atom** - Dark Original Variant
+<table>
+  <tr>
+    <th>Ion Atom</th>
+    <th>Ion Atom Fusion</th>
+    <th>Ion Atom Light</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-dark.png" alt="Ion Atom"></td>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-fusion.png" alt="Ion Atom Fusion"></td>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-light.png" alt="Ion Atom Light"></td>
+  </tr>
+  <tr>
+    <td>The original dark variant.</td>
+    <td>Near-black with cyan and pink. Vibrant enough for some sunlight.</td>
+    <td>For bright rooms.</td>
+  </tr>
+</table>
 
-![dark](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-dark.png)
+## Supported languages
 
-### **Ion Atom Fusion** - Near-black Plasma Variant
+I mostly write Rust, C, C++, C#, Python and Svelte with TypeScript, so the theme is tuned for those. JSON, YAML, TOML, CSS/SCSS, HTML and Markdown are covered too.
 
-![fusion](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-fusion.png)
+Run your language server (rust-analyzer, Pylance, the C/C++ or C# extension) for the full set of colors.
 
-### **Ion Atom Light** - Light Variant
+## Fonts
 
-![light](https://raw.githubusercontent.com/Saniee/Ion-Theme/main/images/ion-light.png)
+Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I go with JetBrains Mono, but Cascadia Code works too.
+
+## Install
+
+Search for **Ion Atom Theme** in the Extensions view, then pick a variant with **Preferences: Color Theme**.
+
+To follow your OS light/dark mode:
+
+```jsonc
+"window.autoDetectColorScheme": true,
+"workbench.preferredDarkColorTheme": "Ion Atom",
+"workbench.preferredLightColorTheme": "Ion Atom Light"
+```
+
+## License
 
 Released under the [GPL-3.0 license](LICENSE).
