@@ -307,7 +307,9 @@
     "variable.readonly.classMember:python": {
       "foreground": "#f4f8fc",
       "fontStyle": "bold"
-    }
+    },
+    "tomlArrayKey": "#9fd8f5",
+    "tomlTableKey": "#9fd8f5"
   },
   "tokenColors": [
     {
@@ -820,6 +822,42 @@
       ],
       "settings": {
         "foreground": "#c4b5fd"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.sql"
+      ],
+      "settings": {
+        "foreground": "#2fd4a8"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.sql"
+      ],
+      "settings": {
+        "foreground": "#2fd4a8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.database-name.sql",
+        "constant.other.table-name.sql"
+      ],
+      "settings": {
+        "foreground": "#d08a52"
+      }
+    },
+    {
+      "scope": [
+        "meta.table.toml support.type.property-name",
+        "meta.array.table.toml support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#5c8dff",
+        "fontStyle": "bold"
       }
     }
   ]

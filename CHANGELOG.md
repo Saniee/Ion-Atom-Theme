@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.7
+- Even Better TOML: keys holding arrays or inline tables use the property color; table headers are bold blue.
+
 ## 0.4.6
 - Retouched the README, added branding banner,
 - Fixed Repo typos.
