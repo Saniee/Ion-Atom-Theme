@@ -54,9 +54,11 @@
     ]
   },
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish:ovsx": "ovsx publish"
   },
   "devDependencies": {
-    "@vscode/vsce": "^4.0.0"
+    "@vscode/vsce": "^4.0.0",
+    "ovsx": "^1.2.0"
   }
 }
