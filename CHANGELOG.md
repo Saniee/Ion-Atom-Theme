@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.10
+- Chart, description, disabled, secondary button, renamed-file and status bar warning colors follow the palette, so extensions like git graphs and custom views match the theme.
+
 ## 0.4.9
 - CMake: `${VAR}` references use the variable color, properties the property color, and bracket arguments the string color; CMakeCache keys and types are colored like other config files.
 - Dockerfile (Container Tools): instruction arguments use plain text instead of the italic parameter color.
