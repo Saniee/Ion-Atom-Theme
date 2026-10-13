@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.11
+- Dark themes: black terminal text is now readable, and bright black is one step lighter.
+- Dark themes: sidebar, tab, panel, status bar, widget and input borders are lighter than the background, so panels separate visibly.
+- Dark themes: comments and punctuation are brighter for better readability.
+- Dark themes: search matches use a lighter fill with a solid border, so text inside a match stays readable.
+- Ion Fusion: selection is a deeper blue so text inside it stays readable.
+- CMakeCache values use the string color instead of a grey that looked like a comment.
+- Light theme: borders are slightly darker, and git decoration, inactive tab and cursor colors have a bit more contrast.
+
 ## 0.4.10
 - Chart, description, disabled, secondary button, renamed-file and status bar warning colors follow the palette, so extensions like git graphs and custom views match the theme.
 
