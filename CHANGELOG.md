@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.1
+- README: new screenshots of every variant in Maple Mono, previews of the Neutral variants, and a shorter overlay image.
+
 ## 0.5.0
 - New **Ion Atom Neutral**, **Neutral Light** and **Neutral Fusion** variants: the same palettes with One Dark Pro-style coloring, a few consistent roles across languages, driven by TextMate grammars, so code looks the same with or without a language server.
 - `npm run dev` opens the demos in an Extension Development Host and rebuilds the Neutral variants on change.
