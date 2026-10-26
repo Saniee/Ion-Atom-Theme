@@ -76,7 +76,7 @@ These are listed next to the supported languages.
 
 ## Fonts
 
-Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I go with `JetBrains Mono`, but `Cascadia Code` works too.
+Ion uses italic and bold a lot to tell similar tokens apart, so a font with real italics helps. I go with `Maple Mono`, but `Cascadia Code` &/or `JetBrains Mono` works too.
 
 ## Install
 
