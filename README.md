@@ -37,6 +37,19 @@ An ion is a charged atom; a neutral one has its charge balanced out. **Ion Atom 
 
 Neutral relies on TextMate grammars rather than language servers, so code looks the same with or without one running. Language servers still add detail where the grammar has none, but always in the same role colors. Only comments, parameters and `this`/`self` are italic, and only named constants and enum members are bold.
 
+<table>
+  <tr>
+    <th>Ion Atom Neutral</th>
+    <th>Ion Atom Neutral Fusion</th>
+    <th>Ion Atom Neutral Light</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-neutral-dark.png" alt="Ion Atom Neutral"></td>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-neutral-fusion.png" alt="Ion Atom Neutral Fusion"></td>
+    <td><img src="https://raw.githubusercontent.com/Saniee/Ion-Atom-Theme/main/images/ion-neutral-light.png" alt="Ion Atom Neutral Light"></td>
+  </tr>
+</table>
+
 ## Supported languages
 
 The theme is tuned for these languages:  
