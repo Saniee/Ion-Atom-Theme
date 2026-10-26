@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+- New **Ion Atom Neutral**, **Neutral Light** and **Neutral Fusion** variants: the same palettes with One Dark Pro-style coloring, a few consistent roles across languages, driven by TextMate grammars, so code looks the same with or without a language server.
+- `npm run dev` opens the demos in an Extension Development Host and rebuilds the Neutral variants on change.
+
 ## 0.4.11
 - Dark themes: black terminal text is now readable, and bright black is one step lighter.
 - Dark themes: sidebar, tab, panel, status bar, widget and input borders are lighter than the background, so panels separate visibly.

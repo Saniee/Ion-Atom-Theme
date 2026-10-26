@@ -2,7 +2,7 @@
   "name": "ion-atom-theme",
   "displayName": "Ion Atom Theme",
   "description": "Blue and red dark and light themes inspired by the ion atom, with a distinct color for every token type",
-  "version": "0.4.11",
+  "version": "0.5.0",
   "publisher": "Saniee",
   "repository": {
     "type": "git",
@@ -50,10 +50,28 @@
         "label": "Ion Atom Fusion",
         "uiTheme": "vs-dark",
         "path": "./ion-fusion-color-theme.json"
+      },
+      {
+        "label": "Ion Atom Neutral",
+        "uiTheme": "vs-dark",
+        "path": "./ion-neutral-color-theme.json"
+      },
+      {
+        "label": "Ion Atom Neutral Light",
+        "uiTheme": "vs",
+        "path": "./ion-neutral-light-color-theme.json"
+      },
+      {
+        "label": "Ion Atom Neutral Fusion",
+        "uiTheme": "vs-dark",
+        "path": "./ion-neutral-fusion-color-theme.json"
       }
     ]
   },
   "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build:neutral": "node scripts/build-neutral.mjs",
+    "vscode:prepublish": "npm run build:neutral",
     "package": "vsce package",
     "publish:ovsx": "ovsx publish"
   },
