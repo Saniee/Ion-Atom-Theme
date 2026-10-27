@@ -152,7 +152,7 @@ const semanticRules = {
   "*.deprecated": { strikethrough: true },
 };
 
-function roleColors(theme) {
+export function roleColors(theme) {
   const colors = { foreground: theme.colors["editor.foreground"] };
   for (const [role, scope] of Object.entries(roleSources)) {
     const rule = theme.tokenColors.find((r) => [].concat(r.scope).includes(scope));
@@ -198,4 +198,5 @@ function build({ base, out, name }) {
   console.log(`wrote ${out}`);
 }
 
-variants.forEach(build);
+// build-zed.mjs imports roleColors; only build when run directly.
+if (process.argv[1] === fileURLToPath(import.meta.url)) variants.forEach(build);

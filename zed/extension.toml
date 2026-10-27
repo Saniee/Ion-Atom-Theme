@@ -1,0 +1,7 @@
+id = "ion-atom-theme"
+name = "Ion Atom Theme"
+version = "0.5.1"
+schema_version = 1
+authors = ["Saniee"]
+description = "Blue and red dark and light themes inspired by the ion atom"
+repository = "https://github.com/Saniee/Ion-Atom-Theme"

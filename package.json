@@ -71,6 +71,7 @@
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build:neutral": "node scripts/build-neutral.mjs",
+    "build:zed": "node scripts/build-zed.mjs",
     "vscode:prepublish": "npm run build:neutral",
     "package": "vsce package",
     "publish:ovsx": "ovsx publish"
